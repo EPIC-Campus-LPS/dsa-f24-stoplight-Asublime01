@@ -31,7 +31,7 @@
 - In a new script `button_stoplight.py`, add a button or touch module to your project to start your RGB stoplight. When the button is pressed the light should light up in the green, yellow, red pattern.
 - Take a short video of your button starting the stoplight and the pattern appearing correctly
 
-- [ ] Upload `button_stoplight.py`  and the video to this repository then continue to Part V - Wrap Up
+- [x] Upload `button_stoplight.py`  and the video to this repository then continue to Part V - Wrap Up
 ## Part V - Wrap Up
 
 - Make sure all the deliverables above are  uploaded to the repository
@@ -39,10 +39,17 @@
 
 1. What is a Python library and how do you include one in your script?
 
+A python library is an external file that provides extra functionality to a python script.
+You can add one by typing import "name of the module" or from module import "package".
+
 2. What does it mean for elements of a circuits to be in series vs. in parallel?
+
+When a ciruit is a series, all the elements are connected in one loop. When a 
+circuit is parallel, all the elements are in their own loop and connected to the same power source. If a failure were to occur, it would not break the entire loop.
 
 3. Can you create a circuit of 3 light bulbs in series? Why or why not?
 
+Yes because the current would just run through all of them in one loop.
 
 ## Rubric 
 
